@@ -49,4 +49,11 @@ Design Plan:
 
     My plan on implementing this will be to check consistently if a key is being pressed, if it is then it will more up, down, left, or right, if it isn't then it will continue on path it is already following. I plan on making the turtle move in different directions by setting the z somehow than incrementing the x every lets say 0.5 seconds.
 
+
+Live Problems:
+
+    Ran into first problem. I've now realised that I will need to subsicribe to pose topic in order to get self.pose.theta which will give me direction turtle currently facing so I can turn accordingly when arrow key pressed. Bit annoying since I now need to learn more documentation at 4am, but whatever.
+
+    
+
     

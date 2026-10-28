@@ -1,0 +1,24 @@
+[0.381s] Invoking command in '/home/rohan/rohanguptaROS2turtlesim/build/turtlesim_arrow': PYTHONPATH=/home/rohan/rohanguptaROS2turtlesim/build/turtlesim_arrow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rohan/rohanguptaROS2turtlesim/build/turtlesim_arrow/build --no-deps symlink_data
+[0.498s] running develop
+[0.556s] running egg_info
+[0.556s] creating turtlesim_arrow.egg-info
+[0.556s] writing turtlesim_arrow.egg-info/PKG-INFO
+[0.556s] writing dependency_links to turtlesim_arrow.egg-info/dependency_links.txt
+[0.556s] writing entry points to turtlesim_arrow.egg-info/entry_points.txt
+[0.556s] writing requirements to turtlesim_arrow.egg-info/requires.txt
+[0.556s] writing top-level names to turtlesim_arrow.egg-info/top_level.txt
+[0.557s] writing manifest file 'turtlesim_arrow.egg-info/SOURCES.txt'
+[0.557s] reading manifest file 'turtlesim_arrow.egg-info/SOURCES.txt'
+[0.557s] writing manifest file 'turtlesim_arrow.egg-info/SOURCES.txt'
+[0.558s] running build_ext
+[0.558s] Creating /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/lib/python3.10/site-packages/turtlesim-arrow.egg-link (link to .)
+[0.558s] Installing mover script to /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/lib/turtlesim_arrow
+[0.559s] 
+[0.559s] Installed /home/rohan/rohanguptaROS2turtlesim/build/turtlesim_arrow
+[0.559s] running symlink_data
+[0.559s] creating /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/share/ament_index
+[0.559s] creating /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/share/ament_index/resource_index
+[0.559s] creating /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/share/ament_index/resource_index/packages
+[0.559s] symbolically linking /home/rohan/rohanguptaROS2turtlesim/build/turtlesim_arrow/resource/turtlesim_arrow -> /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/share/ament_index/resource_index/packages
+[0.559s] symbolically linking /home/rohan/rohanguptaROS2turtlesim/build/turtlesim_arrow/package.xml -> /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/share/turtlesim_arrow
+[0.570s] Invoked command in '/home/rohan/rohanguptaROS2turtlesim/build/turtlesim_arrow' returned '0': PYTHONPATH=/home/rohan/rohanguptaROS2turtlesim/build/turtlesim_arrow/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rohan/rohanguptaROS2turtlesim/build/turtlesim_arrow/build --no-deps symlink_data

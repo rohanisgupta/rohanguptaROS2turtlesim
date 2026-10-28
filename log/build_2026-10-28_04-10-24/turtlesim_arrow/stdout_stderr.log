@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating turtlesim_arrow.egg-info
+writing turtlesim_arrow.egg-info/PKG-INFO
+writing dependency_links to turtlesim_arrow.egg-info/dependency_links.txt
+writing entry points to turtlesim_arrow.egg-info/entry_points.txt
+writing requirements to turtlesim_arrow.egg-info/requires.txt
+writing top-level names to turtlesim_arrow.egg-info/top_level.txt
+writing manifest file 'turtlesim_arrow.egg-info/SOURCES.txt'
+reading manifest file 'turtlesim_arrow.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim_arrow.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/lib/python3.10/site-packages/turtlesim-arrow.egg-link (link to .)
+Installing mover script to /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/lib/turtlesim_arrow
+
+Installed /home/rohan/rohanguptaROS2turtlesim/build/turtlesim_arrow
+running symlink_data
+creating /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/share/ament_index
+creating /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/share/ament_index/resource_index
+creating /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/share/ament_index/resource_index/packages
+symbolically linking /home/rohan/rohanguptaROS2turtlesim/build/turtlesim_arrow/resource/turtlesim_arrow -> /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/share/ament_index/resource_index/packages
+symbolically linking /home/rohan/rohanguptaROS2turtlesim/build/turtlesim_arrow/package.xml -> /home/rohan/rohanguptaROS2turtlesim/install/turtlesim_arrow/share/turtlesim_arrow

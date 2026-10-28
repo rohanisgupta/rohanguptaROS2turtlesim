@@ -1,0 +1,3 @@
+[console_scripts]
+mover = turtlesim_arrow.mover:main
+

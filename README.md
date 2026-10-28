@@ -43,6 +43,10 @@ Takeaways from simple turtlesim program:
 
 Design Plan:
 
-    So, my plan is to write this program in Python. The resaon is simply because I'm not as comfortable with C++ as I'm with Python.
+    So, my plan is to write this program in Python. The resaon is simply because I'm not as comfortable with C++ as I'm with Python. I also know how to read input from arrow keys in python.
+
+    I will make a simple program that takes inputs from arrow keys. Left arrow will move the turtle left, up arrow will move turtle up, right arrow will move turtle right, and down arrow will move turtle down.
+
+    My plan on implementing this will be to check consistently if a key is being pressed, if it is then it will more up, down, left, or right, if it isn't then it will continue on path it is already following. I plan on making the turtle move in different directions by setting the z somehow than incrementing the x every lets say 0.5 seconds.
 
     

@@ -50,7 +50,7 @@ Design Plan:
     My plan on implementing this will be to check consistently if a key is being pressed, if it is then it will more up, down, left, or right, if it isn't then it will continue on path it is already following. I plan on making the turtle move in different directions by setting the z somehow than incrementing the x every lets say 0.5 seconds.
 
 
-Live Problems:
+Live Problems/Updates:
 
     Ran into first problem. I've now realised that I will need to subsicribe to pose topic in order to get self.pose.theta which will give me direction turtle currently facing so I can turn accordingly when arrow key pressed. Bit annoying since I now need to learn more documentation at 4am, but whatever.
 
@@ -65,7 +65,13 @@ Live Problems:
 
     https://github.com/ros2/teleop_twist_keyboard
 
-    
+    Ok, have somewhat working program that succesfully reads wasd and makes moves. Two problems, Ctr + C doesn't terminate the program, and wasd 
+    doesn't move the turtle in a straight line. Another bug, turtle only moves for a bit, then program waits for new input. However, I don't think 
+    I can fix this bug in a timely manner since its because of .read in getKey, and bc most of my getKey function is from the github above, I would 
+    need to first fully understand everything about it before I can start to reimplement it another way which from the project description seems 
+    unneccesary.
+
+
 
 
 

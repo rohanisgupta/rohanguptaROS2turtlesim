@@ -10,6 +10,8 @@ import termios
 import tty
 import sys
 
+import time
+
 
 class Mover(Node):
 
@@ -29,7 +31,7 @@ class Mover(Node):
     
     def getKey(self):
 
-        tty.setraw(sys.stdin.fileno())
+        tty.setcbreak(sys.stdin.fileno())
         key = sys.stdin.read(1)
         termios.tcsetattr(sys.stdin, termios.TCSADRAIN, self.settings)
         return key
@@ -68,16 +70,29 @@ class Mover(Node):
     
         turn = target - self.pose.theta
 
+
+        #make it so turtle turns then moves
         twist.angular.z = turn
 
+        self.publisher_.publish(twist)
+
+        time.sleep(1.0)
+
         twist.linear.x = 1.0
+        twist.angular.z = 0.0
 
         self.publisher_.publish(twist)
 
 def main():
     rclpy.init()
     mover = Mover()
-    rclpy.spin(mover)
+
+    try:
+        rclpy.spin(mover)
+    except KeyboardInterrupt: #check for ctr + c pressed
+        pass
+    finally:
+        termios.tcsetattr(sys.stdin, termios.TCSADRAIN, mover.settings) #to revert to default settings since getKey() changes them, from github so dont understand fully tbh
 
 
 

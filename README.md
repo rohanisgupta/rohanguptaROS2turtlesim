@@ -43,7 +43,7 @@ Takeaways from simple turtlesim program:
 
 Design Plan:
 
-    So, my plan is to write this program in Python. The resaon is simply because I'm not as comfortable with C++ as I'm with Python. I also know how to read input from arrow keys in python.
+    So, my plan is to write this program in Python. The resaon is simply because I'm not as comfortable with C++ as I'm with Python. I also know how to read input from arrow keys in python (live problems below will explain change to WASD from arrow keys).
 
     I will make a simple program that takes inputs from arrow keys. Left arrow will move the turtle left, up arrow will move turtle up, right arrow will move turtle right, and down arrow will move turtle down.
 
@@ -54,6 +54,22 @@ Live Problems:
 
     Ran into first problem. I've now realised that I will need to subsicribe to pose topic in order to get self.pose.theta which will give me direction turtle currently facing so I can turn accordingly when arrow key pressed. Bit annoying since I now need to learn more documentation at 4am, but whatever.
 
+    I definetly do not know how to read input from arrow keys like I thought. Apparently there is a bunch of more stuff than I thought I need to import and a lot more documentation to review. So, I'm going to call it a night and resume tommorow.
+
+    Ok, it was the 27th last I worked on this, now I'm going to finish it up. I was following implementation of arrow input from this random post on reddit, but it wasn't even complete. Also, can't find updated material on arrow input that's not Google AI, so I'm going to pivot and use WASD instead. I'm using tutorial below.
+
+    https://www.youtube.com/watch?v=8Dksx6X_1f8
+
+
+    Can't use import keyboard, so this doesn't work, instead I'm going to follow code for actual telop_twist_keyboard implementation in python using public repository below
+
+    https://github.com/ros2/teleop_twist_keyboard
+
     
+
+
+
+
+
 
     
